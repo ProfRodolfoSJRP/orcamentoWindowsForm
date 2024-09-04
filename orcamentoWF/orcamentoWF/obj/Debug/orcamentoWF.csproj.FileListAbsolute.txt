@@ -1,0 +1,14 @@
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\orcamentoWF.exe.config
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\orcamentoWF.exe
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\orcamentoWF.pdb
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\System.Data.SqlClient.dll
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\System.Data.SqlClient.xml
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.csproj.AssemblyReference.cache
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.FormPrincipal.resources
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.Properties.Resources.resources
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.csproj.GenerateResource.cache
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.csproj.CoreCompileInputs.cache
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.csproj.CopyComplete
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.exe
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.pdb
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.Adicionar.frmClienteAdicionar.resources
