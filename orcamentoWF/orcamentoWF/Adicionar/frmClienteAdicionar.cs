@@ -12,9 +12,22 @@ namespace orcamentoWF.Adicionar
 {
     public partial class frmClienteAdicionar : Form
     {
+        // Capturar a conexão do Settings.Settings
+        string _conexao = orcamentoWF.Properties.Settings.Default.conexao;
         public frmClienteAdicionar()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Configurar Botão Salvar
+            // Chama Objeto Cliente
+
+            Cliente cliente = new Cliente();
+
+
+
         }
     }
 }

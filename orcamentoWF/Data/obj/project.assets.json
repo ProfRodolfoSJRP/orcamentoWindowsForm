@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodolfo.lgouveia\\source\\repos\\orcamentoWindowsForm\\orcamentoWF\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\rodolfo.lgouveia\\source\\repos\\projetoRodolfo\\orcamentoWindowsForm\\orcamentoWF\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\rodolfo.lgouveia\\source\\repos\\orcamentoWindowsForm\\orcamentoWF\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\rodolfo.lgouveia\\source\\repos\\projetoRodolfo\\orcamentoWindowsForm\\orcamentoWF\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\rodolfo.lgouveia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodolfo.lgouveia\\source\\repos\\orcamentoWindowsForm\\orcamentoWF\\Data\\obj\\",
+      "outputPath": "C:\\Users\\rodolfo.lgouveia\\source\\repos\\projetoRodolfo\\orcamentoWindowsForm\\orcamentoWF\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
