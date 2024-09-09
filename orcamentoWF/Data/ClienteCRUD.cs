@@ -28,8 +28,8 @@ namespace Data
 
 
             // Bloco para tratar possiveis erros ao inserir e exibir mensagens
-            try 
-            { 
+            try
+            {
                 //Criação de uma conexão com o banco de dados 
                 using (var conexaoBd = new SqlConnection(_conexao))
                 // Transformo a Query em comando SQL
@@ -50,7 +50,7 @@ namespace Data
             // Caso ocorra erro no Sql Capturamos e mostramos na tela
             catch (Exception ex)
             {
-                throw new Exception("EROOOO !!!",ex);
+                throw new Exception("EROOOO !!!", ex);
             }
         }
     }

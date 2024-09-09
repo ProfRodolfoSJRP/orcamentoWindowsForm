@@ -1,4 +1,10 @@
-﻿namespace Data
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Data
 {
     public class Cliente
     {
@@ -17,3 +23,4 @@
         // GET - SET : Permite Ler e atribuir valores na 'variavel'
     }
 }
+
