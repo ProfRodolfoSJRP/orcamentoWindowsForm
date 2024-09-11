@@ -28,6 +28,30 @@ namespace orcamentoWF.Adicionar
 
             Cliente cliente = new Cliente();
 
+            ClienteCRUD clientecrud = new ClienteCRUD(_conexao);
+
+            if(string.IsNullOrWhiteSpace(txbNome.Text) || string.IsNullOrEmpty(txbEndereco.Text))
+            {
+                MessageBox.Show("Hey, Digite todos os campos em !!", "Erro");
+            }
+            else
+            {
+                // Try = tente
+                // Atribui os valores dos campos no objeto Cliente
+                cliente.Nome = txbNome.Text;
+                cliente.Endereco = txbEndereco.Text;
+                cliente.Telefone = txbTelefone.Text;
+
+                // Executa o comando de inclusão do cliente 
+                clientecrud.IncluiCliente(cliente);
+
+                // Exibe uma Mensagem se deu certo
+                MessageBox.Show("Cadastrado com Sucesso");
+
+                // Fecha a Tela
+                this.Close();
+
+            }
         }
     }
 }

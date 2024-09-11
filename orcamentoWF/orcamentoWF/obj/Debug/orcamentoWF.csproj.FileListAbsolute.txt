@@ -20,3 +20,11 @@ C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcam
 C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.csproj.CoreCompileInputs.cache
 C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.exe
 C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.pdb
+C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\orcamentoWF.exe.config
+C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\orcamentoWF.exe
+C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\orcamentoWF.pdb
+C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\Data.dll
+C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\System.Data.SqlClient.dll
+C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\Data.pdb
+C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\System.Data.SqlClient.xml
+C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.csproj.CopyComplete
