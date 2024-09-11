@@ -56,6 +56,12 @@
     <Compile Include="Adicionar\frmClienteAdicionar.Designer.cs">
       <DependentUpon>frmClienteAdicionar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Adicionar\frmTecnicoAdicionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adicionar\frmTecnicoAdicionar.Designer.cs">
+      <DependentUpon>frmTecnicoAdicionar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Adicionar\frmClienteAdicionar.resx">
       <DependentUpon>frmClienteAdicionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adicionar\frmTecnicoAdicionar.resx">
+      <DependentUpon>frmTecnicoAdicionar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
