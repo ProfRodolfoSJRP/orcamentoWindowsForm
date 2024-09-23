@@ -26,7 +26,7 @@ namespace orcamentoWF.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SJR0577169W10-1\\SQLEXPRESS;Initial Catalog=bd_orcamento;Integrated Se" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SJR0630204W10-1\\SQLEXPRESS;Initial Catalog=bd_orcamento;Integrated Se" +
             "curity=True")]
         public string conexao {
             get {

@@ -68,15 +68,16 @@
             // 
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             this.clientesToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // técnicosToolStripMenuItem
             // 
             this.técnicosToolStripMenuItem.Name = "técnicosToolStripMenuItem";
-            this.técnicosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.técnicosToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.técnicosToolStripMenuItem.Text = "Técnicos";
+            this.técnicosToolStripMenuItem.Click += new System.EventHandler(this.técnicosToolStripMenuItem_Click);
             // 
             // gestorDeOrçamentosToolStripMenuItem
             // 
@@ -89,6 +90,7 @@
             this.gestorDeClientesToolStripMenuItem.Name = "gestorDeClientesToolStripMenuItem";
             this.gestorDeClientesToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
             this.gestorDeClientesToolStripMenuItem.Text = "Gestor de Clientes";
+            this.gestorDeClientesToolStripMenuItem.Click += new System.EventHandler(this.gestorDeClientesToolStripMenuItem_Click);
             // 
             // calculadoraToolStripMenuItem
             // 

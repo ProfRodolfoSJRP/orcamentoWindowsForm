@@ -4,3 +4,9 @@ C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcam
 C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
 C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\Data\obj\Debug\Data.dll
 C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\Data\obj\Debug\Data.pdb
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\Data\bin\Debug\Data.dll
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\Data\bin\Debug\Data.pdb
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\Data\obj\Debug\Data.dll
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\Data\obj\Debug\Data.pdb

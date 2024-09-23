@@ -28,3 +28,7 @@ C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcam
 C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\Data.pdb
 C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\System.Data.SqlClient.xml
 C:\Users\rodolfo.lgouveia\source\repos\projetoRodolfo\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.csproj.CopyComplete
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\Data.dll
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\Data.pdb
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.Adicionar.frmTecnicoAdicionar.resources
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.frmGerirCliente.resources

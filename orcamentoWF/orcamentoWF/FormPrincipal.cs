@@ -33,5 +33,23 @@ namespace orcamentoWF
             // Exibe a tela
             frmClienteCad.Show();
         }
+
+        private void técnicosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmTecnicoCad = new frmTecnicoAdicionar();
+            // Define Hierarquia de Pai e filho do MDI
+            frmTecnicoCad.MdiParent = this;
+            // Exibe a tela
+            frmTecnicoCad.Show();
+        }
+
+        private void gestorDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmGerirCliente = new frmGerirCliente();
+            // Define Hierarquia de Pai e filho do MDI
+            frmGerirCliente.MdiParent = this;
+            // Exibe a tela
+            frmGerirCliente.Show();
+        }
     }
 }

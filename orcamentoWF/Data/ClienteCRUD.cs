@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -51,6 +52,38 @@ namespace Data
             catch (Exception ex)
             {
                 throw new Exception("EROOOO !!!", ex);
+            }
+        }
+        // Buscar Cliente - Fazer buscar no banco de dados.
+        public DataSet BuscarCliente(string pesquisa = "") 
+        {
+            // Query SQL que realiza uma busca filtrando o nome
+            const string query = "Select * from Clientes Where Nome Like @Pesquisa";
+
+            // Tente
+            try
+            {
+                // Cria uma nova conexão com o banco de dados.
+                using (var conexaoBd = new SqlConnection(_conexao))
+                // Criação do comando SQL associado á query e á conexão
+                using (var comando = new SqlCommand(query, conexaoBd))
+                // Criação de um adaptador para preencher o DataSet
+                using(var adaptador = new SqlDataAdapter(comando))
+                {
+                    // Prepara o Valor do parâmetro de pesquisa by Pedro
+                    string parametroPesquisa = $"%{pesquisa}%";
+                    comando.Parameters.AddWithValue("@Pesquisa", parametroPesquisa);
+                    // Abre a conexão com o banco de dados
+                    conexaoBd.Open();
+                    // Cria o formatado de dados que o DGV aceita (Dataset) 
+                    var dsClientes = new DataSet();
+                    adaptador.Fill(dsClientes, "Clientes"); // Preenche o Dataset
+                    return dsClientes; // Retorna Dataset
+                }
+            }
+            catch(Exception ex)
+            {
+                throw new Exception($"Erro ao Buscar Clientes {ex.Message}",ex);
             }
         }
     }
