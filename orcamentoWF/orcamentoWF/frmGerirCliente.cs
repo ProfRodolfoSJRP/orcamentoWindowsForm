@@ -1,4 +1,5 @@
 ﻿using Data;
+using orcamentoWF.Adicionar;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -53,6 +54,16 @@ namespace orcamentoWF
             dgvClientes.Columns["nome"].DisplayIndex = 0;
             dgvClientes.Columns["endereco"].DisplayIndex = 1;
             dgvClientes.Columns["telefone"].DisplayIndex = 2;
+        }
+
+        private void btnIncluir_Click(object sender, EventArgs e)
+        {
+            // Instancia
+            var frmclienteadicionar = new frmClienteAdicionar();
+            // Abre como Janela de Dialogo
+            frmclienteadicionar.ShowDialog();
+            // Listar os Cliente 
+            ListarCliente();
         }
     }
 }
