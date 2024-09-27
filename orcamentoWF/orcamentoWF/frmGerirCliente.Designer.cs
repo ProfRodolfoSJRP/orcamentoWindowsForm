@@ -64,6 +64,7 @@
             this.btnPesquisar.TabIndex = 2;
             this.btnPesquisar.Text = "B";
             this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // dgvClientes
             // 

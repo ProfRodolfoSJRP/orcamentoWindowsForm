@@ -65,5 +65,21 @@ namespace orcamentoWF
             // Listar os Cliente 
             ListarCliente();
         }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            // Verificar se a caixa de Busca está vazio 
+            if(txbPesquisa.Text == "")
+            {
+                // Exibe uma Mensagem de aviso indicando que está vazio
+                MessageBox.Show("Digite um Nome !!");
+                // Defini o Foco no campo de busca
+                txbPesquisa.Focus();
+                // retorna sem Executar a busca
+                return;
+            }
+            // Se a caixa de busca tiver algum valor chama ListarCliente
+            ListarCliente();
+        }
     }
 }
