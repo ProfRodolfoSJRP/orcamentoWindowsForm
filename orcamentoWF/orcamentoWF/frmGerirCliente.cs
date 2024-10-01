@@ -117,5 +117,28 @@ namespace orcamentoWF
                 MessageBox.Show("Selecione um Registro né jovem ! ");
             }
         }
+
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+            // Verifica se alguma linha está selecionada no DGV
+            if(dgvClientes.SelectedRows.Count > 0)
+            {
+                // Obtém o código do Cliente da Linha Selecionada
+                int codigo = Convert.ToInt32(dgvClientes.CurrentRow.Cells["id_cliente"].Value);
+
+                // Associa ( Instancia o formulário com uma variavel )
+                var frmAltCliente = new frmAlterarCliente(codigo);
+
+                // Exibe o formulário como uma janela Modal
+                frmAltCliente.ShowDialog();
+
+                // Atualiza a lista de clientes
+                ListarCliente();
+            }
+            else
+            {
+                MessageBox.Show("Selecione um Registro para Alterar");
+            }
+        }
     }
 }

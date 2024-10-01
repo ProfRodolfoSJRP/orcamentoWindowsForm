@@ -32,3 +32,4 @@ C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcament
 C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\bin\Debug\Data.pdb
 C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.Adicionar.frmTecnicoAdicionar.resources
 C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.frmGerirCliente.resources
+C:\Users\rodolfo.lgouveia\source\repos\orcamentoWindowsForm\orcamentoWF\orcamentoWF\obj\Debug\orcamentoWF.frmAlterarCliente.resources

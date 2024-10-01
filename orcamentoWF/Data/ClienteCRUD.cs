@@ -110,5 +110,75 @@ namespace Data
                 throw new Exception($"Erro ao Deletar:{ex.Message}", ex);
             }
         }
+        // Alterar Cliente 
+        public void AlterarCliente(Cliente cliente)
+        {
+            // Query SQL para atualizar os campos da tela
+            const string query = @"update clientes set
+                                  nome = @Nome
+                                  telefone = @Telefone
+                                  endereco = @Endereco
+                                  where Id_Cliente = @codigoCli";
+            try
+            {
+                //Criação de uma conexão com o banco de dados 
+                using (var conexaoBd = new SqlConnection(_conexao))
+                // Transformo a Query em comando SQL
+                using (var comandoSql = new SqlCommand(query, conexaoBd))
+                {
+                    comandoSql.Parameters.AddWithValue("@Nome", cliente.Nome);
+                    comandoSql.Parameters.AddWithValue("@Endereco", cliente.Endereco);
+                    comandoSql.Parameters.AddWithValue("@Telefone", cliente.Telefone);
+                    comandoSql.Parameters.AddWithValue("@codigoCli", cliente.Id_Cliente);
+
+                    // Abre a conexão com o Banco de dados
+                    conexaoBd.Open();
+
+                    // Executa toda a operação que fizemos 
+                    comandoSql.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao alterar o cliente: {ex.Message}", ex);
+            }
+
+        }
+        // Obtem Cliente, Trazer apenas um cliente 
+        public Cliente ObtemCliente(int codigoCliente)
+        {
+            const string query = "Select * from clientes where id_cliente = @cod";
+            Cliente cliente = null; // Variavel para armazenar o cliente 
+
+            try
+            {
+                using(var conexaoBd = new SqlConnection(_conexao))
+                using(var comando = new SqlCommand(query, conexaoBd))
+                {
+                    // Adicionar o parametro 
+                    comando.Parameters.AddWithValue("@cod", codigoCliente);
+                    conexaoBd.Open();
+                    // Executa a query e obtém os dados do cliente 
+                    using(var reader = comando.ExecuteReader())
+                    {
+                       if(reader.Read())
+                        {
+                            cliente = new Cliente
+                            {
+                                Id_Cliente = Convert.ToInt32(reader["id_Cliente"]),
+                                Nome = reader["nome"].ToString(),
+                                Endereco = reader["endereco"].ToString(),
+                                Telefone = reader["telefone"].ToString()
+                            };
+                        }
+                        
+                    }
+                }
+            }catch (Exception ex)
+            {
+                throw new Exception(ex.Message, ex);
+            }
+            return cliente;
+        }
     }
 }
