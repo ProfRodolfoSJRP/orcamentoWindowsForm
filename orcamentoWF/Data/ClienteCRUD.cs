@@ -86,5 +86,29 @@ namespace Data
                 throw new Exception($"Erro ao Buscar Clientes {ex.Message}",ex);
             }
         }
+        // Excluir Cliente
+        // Lógica :  Enviar o Código do cliente para o SQL e o SQL executar o Delete
+        public void ExcluirCliente(int codigoCliente)
+        {
+            // Query SQL para Excluir Cliente
+            const string query = "DELETE from clientes where Id_Cliente = @codigoCli";
+
+            try
+            {
+                // Criando uma conexão com o BD
+                using(var conexaoBd = new SqlConnection(_conexao))
+                // Criaçao comando Sql Associado à query e à conexão
+                using(var comando = new SqlCommand(query,conexaoBd))
+                {
+                    comando.Parameters.AddWithValue("@codigoCli", codigoCliente);
+                    conexaoBd.Open();
+                    comando.ExecuteNonQuery();
+                }
+            }
+            catch(Exception ex )
+            {
+                throw new Exception($"Erro ao Deletar:{ex.Message}", ex);
+            }
+        }
     }
 }

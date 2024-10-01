@@ -35,7 +35,9 @@
             this.btnIncluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnAtualizar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAtualizar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -75,6 +77,7 @@
             this.dgvClientes.Location = new System.Drawing.Point(18, 64);
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.ReadOnly = true;
+            this.dgvClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvClientes.Size = new System.Drawing.Size(560, 228);
             this.dgvClientes.TabIndex = 3;
             // 
@@ -108,12 +111,26 @@
             this.btnExcluir.TabIndex = 6;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
+            // 
+            // btnAtualizar
+            // 
+            this.btnAtualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAtualizar.Image = global::orcamentoWF.Properties.Resources.refresh_button_svgrepo_com;
+            this.btnAtualizar.Location = new System.Drawing.Point(368, 27);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(20, 21);
+            this.btnAtualizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAtualizar.TabIndex = 7;
+            this.btnAtualizar.TabStop = false;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // frmGerirCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 377);
+            this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.btnIncluir);
@@ -125,6 +142,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestor de Cliente";
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAtualizar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,5 +157,6 @@
         private System.Windows.Forms.Button btnIncluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.PictureBox btnAtualizar;
     }
 }

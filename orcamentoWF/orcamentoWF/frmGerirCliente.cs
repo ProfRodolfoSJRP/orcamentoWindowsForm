@@ -81,5 +81,41 @@ namespace orcamentoWF
             // Se a caixa de busca tiver algum valor chama ListarCliente
             ListarCliente();
         }
+
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
+            ListarCliente();
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            // Verifica se alguma linha selecionada no datagrid
+            if(dgvClientes.SelectedRows.Count > 0)
+            {
+                // Obtém o Código do cliente na linha selecionda
+                int codigo = Convert.ToInt32(dgvClientes.CurrentRow.Cells["Id_Cliente"].Value);
+
+                // Exibe uma Caixa de dialogo confirmando se deseja deletar
+                var resultado = MessageBox.Show(
+                    "Deseja Excluir Esse Registro ? Eimm",
+                    "Pergunta",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question,
+                    MessageBoxDefaultButton.Button2);
+                // Se o usuário confirmar a exclusão
+                if(resultado == DialogResult.Yes)
+                {
+                    ClienteCRUD CliCrud = new ClienteCRUD(_conexao);
+                    CliCrud.ExcluirCliente(codigo);
+                    ListarCliente();
+                }
+
+            }
+            else
+            {
+                // Se nenhuma linha for selecionada 
+                MessageBox.Show("Selecione um Registro né jovem ! ");
+            }
+        }
     }
 }
