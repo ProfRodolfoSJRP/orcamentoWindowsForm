@@ -115,8 +115,8 @@ namespace Data
         {
             // Query SQL para atualizar os campos da tela
             const string query = @"update clientes set
-                                  nome = @Nome
-                                  telefone = @Telefone
+                                  nome = @Nome,
+                                  telefone = @Telefone,
                                   endereco = @Endereco
                                   where Id_Cliente = @codigoCli";
             try
